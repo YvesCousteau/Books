@@ -13,7 +13,7 @@
 - Borrowing Rules
 - No Inheritance
 
-## :mag: Advices
+## :wrench: Advices
 
 - Catch error
 - Only `Result` in lib
@@ -50,7 +50,7 @@
 ## :memo: Documentations
 
 - [x] https://doc.rust-lang.org/book
-- [-] https://rust-cli.github.io/book
+- [ ] https://rust-cli.github.io/book
 - [ ] https://doc.rust-lang.org/stable/embedded-book
 - [ ] https://rustwasm.github.io/docs/book
 - [ ] https://doc.rust-lang.org/rust-by-example
