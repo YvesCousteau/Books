@@ -13,7 +13,7 @@
 - Borrowing Rules
 - No Inheritance
 
-## :wrench: Advices
+## :page_facing_up: Advices
 
 - Catch error
 - Only `Result` in lib
