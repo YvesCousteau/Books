@@ -81,8 +81,17 @@
 
 ## :package: Crates
 
+- `actix` :arrow_right: Actor framework
+- `actix-web` :arrow_right: powerful, pragmatic, and extremely fast web framework
+  - `actix-cors` :arrow_right: Cross-Origin Resource Sharing (CORS) controls
+  - `actix-http` :arrow_right: HTTP types and services
+  - `actix-rt` :arrow_right: Tokio-based single-threaded async runtime
 - `anyhow` :arrow_right: easy idiomatic error handling
 - `clap` :arrow_right: command line argument parser
+- `diesel` :arrow_right: safe, extensible ORM and Query Builder for PostgreSQL, SQLite, and MySQL
+- `serde` :arrow_right: generic serialization/deserialization framework
+- `serde_json` :arrow_right: JSON serialization file format
+- `flate2` :arrow_right: DEFLATE compression and decompression exposed as Read/BufRead/Write streams. Supports miniz_oxide and multiple zlib implementations. Supports zlib, gzip, and raw deflate streams
 
 ## Markdown techniques
 
