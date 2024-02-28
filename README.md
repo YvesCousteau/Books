@@ -82,7 +82,7 @@
 ## :package: Crates
 
 - `anyhow` for easy idiomatic error handling
-- `clap` &rarr command line argument parser
+- `clap` \Rightarrow command line argument parser
 
 ## Markdown techniques
 
