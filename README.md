@@ -33,20 +33,22 @@
 
 ## :pencil2: Advices +
 
-- `Option<>` with `take()` is used to move a value out of `Some`
-
-- `Iter` instead of `for`
-- `Iter` use `filter_map` to get only `Some`
-  
-- `match` multi pattern `|` or `..=`
-- `match` catch-all `_`
-- `match` ignore `..` or `_`
-- `match` binding value `@`
-
-- `Sender` can be use by users
-- `Receiver` is used by user so use `Arc` to share it
-
-- `BufReader` instead `read_to_string`
+- `Option<>`
+  - `with `take()` is used to move a value out of `Some`
+- `Iter`
+  - instead of `for`
+  - use `filter_map` to get only `Some`
+- `match`
+  - multi pattern `|` or `..=`
+  - catch-all `_`
+  - ignore `..` or `_`
+  - binding value `@`
+- `Sender`
+  - can be use by users
+- `Receiver`
+  - is used by user so use `Arc` to share it
+- `BufReader`
+  - instead `read_to_string`
 
 ## :wrench: Commands
 
