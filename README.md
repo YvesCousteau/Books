@@ -50,7 +50,7 @@
   - is used by user so use `Arc` to share it
 - `BufReader`
   - instead `read_to_string`
-- `Result`
+- `Result<>`
   - use `unwrap()` after a `match`
 
 ## :wrench: Commands
