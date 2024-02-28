@@ -81,8 +81,8 @@
 
 ## :package: Crates
 
-- `anyhow` for easy idiomatic error handling
-- `clap` \Rightarrow command line argument parser
+- `anyhow` :arrow_right: easy idiomatic error handling
+- `clap` :arrow_right: command line argument parser
 
 ## Markdown techniques
 
