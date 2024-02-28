@@ -92,7 +92,7 @@
 - `dotenvy` :arrow_right: well-maintained fork of the dotenv crate who loads environment variables from a .env
 - `flate2` :arrow_right: DEFLATE compression and decompression exposed as Read/BufRead/Write streams. Supports miniz_oxide and multiple zlib implementations. Supports zlib, gzip, and raw deflate streams
 - `log` :arrow_right: lightweight logging facade
-  - `env_logger` :arrow_right: logging implementation for log which is configured via an environment variable
+  - `env_logger` :arrow_right: logging implementation for `log` which is configured via an environment variable
 - `serde` :arrow_right: generic serialization/deserialization framework
 - `serde_json` :arrow_right: JSON serialization file format
 - `tokio` :arrow_right: event-driven, non-blocking I/O platform for writing asynchronous I/O backed applications
