@@ -34,6 +34,7 @@
 ## :pencil2: Advices +
 
 - `Option<>`
+  - use `unwrap()` after a `match`
   - `with `take()` is used to move a value out of `Some`
 - `Iter`
   - instead of `for`
@@ -49,6 +50,8 @@
   - is used by user so use `Arc` to share it
 - `BufReader`
   - instead `read_to_string`
+- `Result`
+  - use `unwrap()` after a `match`
 
 ## :wrench: Commands
 
