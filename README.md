@@ -52,6 +52,7 @@
   - instead `read_to_string`
 - `Result<>`
   - use `unwrap()` after a `match`
+  - use `?` to return `Err()`
 
 ## :wrench: Commands
 
