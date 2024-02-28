@@ -20,9 +20,7 @@
 - `dyn` cost at runtime
 - Tricks with no memory guarantee use `unsafe`
 - `extern` are always `unsafe`
-- `Iter` instead of `for`
 - `type` is used for alias for type to  avoid repetition
-- To move a value out of a `var` use `Option<>` with `take()`
 - To switch from `Struct1` to `Struct2` use `into()` with `From` Trait
 - `Rc` Trait to have access to `var` by multi owner
 - `Box` to Store data on the Heap
@@ -30,17 +28,25 @@
 - `Arc` is `Rc` for multi threading and async
 - Generic Type for Monomorphiseme
 - Trait for Polymorphiseme
-- `Sender` is clonable / `Receiver` is own by one
 - Associated Trait instead of Generic Type when The value is fix
 - Default Generic Parameters in Trait if we need Overloading
 
 ## :pencil2: Advices +
 
+- `Option<>` with `take()` is used to move a value out of `Some`
+
+- `Iter` instead of `for`
 - `Iter` use `filter_map` to get only `Some`
+  
 - `match` multi pattern `|` or `..=`
 - `match` catch-all `_`
 - `match` ignore `..` or `_`
 - `match` binding value `@`
+
+- `Sender` can be use by users
+- `Receiver` is used by user so use `Arc` to share it
+
+- `BufReader` instead `read_to_string`
 
 ## :wrench: Commands
 
