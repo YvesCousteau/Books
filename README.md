@@ -79,6 +79,11 @@
 - https://crates.io/
 - https://lib.rs/
 
+## :package: Crates
+
+- `anyhow` for easy idiomatic error handling
+- `clap` &rarr command line argument parser
+
 ## Markdown techniques
 
 [basic-writing-and-formatting-syntax](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
