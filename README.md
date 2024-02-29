@@ -98,6 +98,7 @@
 - `serde_json` :arrow_right: JSON serialization file format
 - `tokio` :arrow_right: event-driven, non-blocking I/O platform for writing asynchronous I/O backed applications
 - `tungstenite` :arrow_right: Lightweight, flexible WebSockets
+- `url` :arrow_right: implementation of the URL Standard
 
 ## Markdown techniques
 
