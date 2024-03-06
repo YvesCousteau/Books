@@ -91,6 +91,7 @@
 - `clap` :arrow_right: command line argument parser
 - `diesel` :arrow_right: safe, extensible ORM and Query Builder for PostgreSQL, SQLite, and MySQL
 - `flate2` :arrow_right: DEFLATE compression and decompression exposed as Read/BufRead/Write streams. Supports miniz_oxide and multiple zlib implementations. Supports zlib, gzip, and raw deflate streams
+- `indicatif` :arrow_right: indicating progress in command line applications
 - `log` :arrow_right: lightweight logging facade
   - `env_logger` :arrow_right: logging implementation for `log` which is configured via an environment variable
 - `reqwest` :arrow_right: convenient, higher-level HTTP Client
