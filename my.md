@@ -5,12 +5,14 @@
 - [ ] play video frame
 - [ ] websocket refactoring
 - [ ] models getter / setter to access db
-- [ ] add CI server
-- [ ] add CI tools
+- [ ] add CI server (fmt / clippy/ fix / test (on comment ?))
+- [ ] add CI tools (fmt / clippy/ fix / test (on comment ?))
 - [ ] add tests server handlers
 - [ ] add tests server models
+- [ ] add tests server lib
 - [ ] add tests server websocket
-- [ ] add tests units tools
+- [ ] add tests tools
+- [ ] add tests tools lib
 - [ ] add tests integration tools
 - [ ] checkout webrtc
 - [ ] setup rpi as server permanent
