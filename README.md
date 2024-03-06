@@ -88,6 +88,7 @@
   - `actix-rt` :arrow_right: Tokio-based single-threaded async runtime
 - `alsa` :arrow_right: safe wrappers for ALSA
 - `anyhow` :arrow_right: easy idiomatic error handling
+- `assert_fs` :arrow_right: filesystem fixtures and assertions for testing
 - `assert_cmd` :arrow_right: easy command initialization and assertions
 - `clap` :arrow_right: command line argument parser
 - `diesel` :arrow_right: safe, extensible ORM and Query Builder for PostgreSQL, SQLite, and MySQL
