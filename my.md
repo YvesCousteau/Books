@@ -1,0 +1,16 @@
+# Tasks
+- [ ] get camera
+- [ ] get screen
+- [ ] record camera frame
+- [ ] play video frame
+- [ ] websocket refactoring
+- [ ] models getter / setter to access db
+- [ ] add CI server
+- [ ] add CI tools
+- [ ] add tests server handlers
+- [ ] add tests server models
+- [ ] add tests server websocket
+- [ ] add tests units tools
+- [ ] add tests integration tools
+- [ ] checkout webrtc
+- [ ] setup rpi as server permanent
