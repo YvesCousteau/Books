@@ -5,11 +5,13 @@
 - [ ] 00 play video frame
 - [ ] 00 fix servers
 - [ ] 00 models getter / setter
-- [ ] 00 switch evrethings with anyhow
 - [ ] 01 setup reverse ssh from intra to extra
-- [ ] 44 check song exitators 
+- [ ] 44 check song exitators
+- [ ] 44 finalize ihm
 - [ ] 51 check ihm color + bat
 - [ ] 51 write logo script 
 - [ ] 51 check ihm ratio
 - [ ] 95 check remote connection
 - [ ] 95 install cardiot in ihm
+- [ ] 95 setup avatar ihm
+- [ ] 95 adapt json data for healt
