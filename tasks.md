@@ -1,10 +1,4 @@
 # Tasks
-- [ ] 00 get camera
-- [ ] 00 get screen
-- [ ] 00 record camera frame
-- [ ] 00 play video frame
-- [ ] 00 fix servers
-- [ ] 00 models getter / setter
 - [ ] 01 setup reverse ssh from intra to extra
 - [ ] 44 check song exitators
 - [ ] 44 finalize ihm
@@ -15,3 +9,4 @@
 - [ ] 95 install cardiot in ihm
 - [ ] 95 setup avatar ihm
 - [ ] 95 adapt json data for healt
+- [ ] 95 get bot and pat text 
