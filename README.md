@@ -101,6 +101,7 @@
 - `crossbeam-channel` :arrow_right: multi-producer multi-consumer channels for message passing
 - `derive_more` :arrow_right:  lots of builtin traits that are implemented for its basic types
 - `diesel` :arrow_right: safe, extensible ORM and Query Builder for PostgreSQL, SQLite, and MySQL
+- `exitcode` :arrow_right: system exit code constants as defined by sysexits.h
 - `flate2` :arrow_right: DEFLATE compression and decompression exposed as Read/BufRead/Write streams. Supports miniz_oxide and multiple zlib implementations. Supports zlib, gzip, and raw deflate streams
 - `indicatif` :arrow_right: indicating progress in command line applications
 - `log` :arrow_right: lightweight logging facade
