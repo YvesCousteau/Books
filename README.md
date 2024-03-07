@@ -97,6 +97,7 @@
 - `assert_fs` :arrow_right: filesystem fixtures and assertions for testing
 - `assert_cmd` :arrow_right: easy command initialization and assertions
 - `clap` :arrow_right: command line argument parser
+- `crossbeam-channel` :arrow_right: multi-producer multi-consumer channels for message passing
 - `derive_more` :arrow_right:  lots of builtin traits that are implemented for its basic types
 - `diesel` :arrow_right: safe, extensible ORM and Query Builder for PostgreSQL, SQLite, and MySQL
 - `flate2` :arrow_right: DEFLATE compression and decompression exposed as Read/BufRead/Write streams. Supports miniz_oxide and multiple zlib implementations. Supports zlib, gzip, and raw deflate streams
