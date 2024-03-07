@@ -97,6 +97,7 @@
 - `assert_fs` :arrow_right: filesystem fixtures and assertions for testing
 - `assert_cmd` :arrow_right: easy command initialization and assertions
 - `clap` :arrow_right: command line argument parser
+- `confy` :arrow_right: zero-boilerplate configuration management
 - `crossbeam-channel` :arrow_right: multi-producer multi-consumer channels for message passing
 - `derive_more` :arrow_right:  lots of builtin traits that are implemented for its basic types
 - `diesel` :arrow_right: safe, extensible ORM and Query Builder for PostgreSQL, SQLite, and MySQL
