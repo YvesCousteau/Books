@@ -32,6 +32,7 @@
 - Default Generic Parameters in Trait if we need Overloading
 - For Server, handler should return `anyhow::Result<HttpResponse, CustomError>`
 - Prioritize to return `anyhow::Result<_>`
+- Use `clap` to add args at `CLI` app
 
 ## :pencil2: Advices +
 
