@@ -30,12 +30,20 @@
 - Trait for Polymorphiseme
 - Associated Trait instead of Generic Type when The value is fix
 - Default Generic Parameters in Trait if we need Overloading
+- For Server, handler should return `anyhow::Result<HttpResponse, CustomError>`
+- Prioritize to return `anyhow::Result<_>`
 
 ## :pencil2: Advices +
 
+- `Result<>`
+  - use `unwrap()` after a `match`
+  - use `?` to return `Err()`
+  - use `context()` to resturn `anyhow::Error`
+  - use `map_err(|err| anyhow!())` to resturn `anyhow::Error`
 - `Option<>`
   - use `unwrap()` after a `match`
-  - `with `take()` is used to move a value out of `Some`
+  - with `take()` is used to move a value out of `Some`
+  - use `context()` to resturn `anyhow::Error`
 - `Iter`
   - instead of `for`
   - use `filter_map` to get only `Some`
@@ -50,9 +58,6 @@
   - is used by user so use `Arc` to share it
 - `BufReader`
   - instead `read_to_string`
-- `Result<>`
-  - use `unwrap()` after a `match`
-  - use `?` to return `Err()`
 
 ## :wrench: Commands
 
