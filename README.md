@@ -68,7 +68,7 @@
 ## :memo: Documentations
 
 - [x] https://doc.rust-lang.org/book
-- [ ] https://rust-cli.github.io/book
+- [x] https://rust-cli.github.io/book
 - [ ] https://doc.rust-lang.org/stable/embedded-book
 - [ ] https://rustwasm.github.io/docs/book
 - [ ] https://doc.rust-lang.org/rust-by-example
@@ -97,6 +97,7 @@
 - `assert_fs` :arrow_right: filesystem fixtures and assertions for testing
 - `assert_cmd` :arrow_right: easy command initialization and assertions
 - `clap` :arrow_right: command line argument parser
+  - `clap_mangen` :arrow_right: manpage generator
 - `confy` :arrow_right: zero-boilerplate configuration management
 - `crossbeam-channel` :arrow_right: multi-producer multi-consumer channels for message passing
 - `derive_more` :arrow_right:  lots of builtin traits that are implemented for its basic types
