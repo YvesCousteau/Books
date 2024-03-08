@@ -71,6 +71,7 @@
 - [x] https://rust-cli.github.io/book
 - [ ] https://doc.rust-lang.org/stable/embedded-book
 - [ ] https://rustwasm.github.io/docs/book
+- [ ] https://rust-lang-nursery.github.io/rust-cookbook
 - [ ] https://doc.rust-lang.org/rust-by-example
 - [ ] https://doc.rust-lang.org/stable/cargo
 - [ ] https://doc.rust-lang.org/stable/error_codes
