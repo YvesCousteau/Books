@@ -18,3 +18,4 @@
 - [ ] setup rpi as server permanent
 - [ ] look benchmarks / examples dir in rust
 - [ ] Result<HttpResponse, CustomError>
+- [ ] Setup SCP in rust
