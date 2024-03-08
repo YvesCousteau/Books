@@ -103,6 +103,7 @@
 - `diesel` :arrow_right: safe, extensible ORM and Query Builder for PostgreSQL, SQLite, and MySQL
 - `exitcode` :arrow_right: system exit code constants as defined by sysexits.h
 - `flate2` :arrow_right: DEFLATE compression and decompression exposed as Read/BufRead/Write streams. Supports miniz_oxide and multiple zlib implementations. Supports zlib, gzip, and raw deflate streams
+- `human-panic` :arrow_right: panic messages for humans
 - `indicatif` :arrow_right: indicating progress in command line applications
 - `log` :arrow_right: lightweight logging facade
   - `env_logger` :arrow_right: logging implementation for `log` which is configured via an environment variable
