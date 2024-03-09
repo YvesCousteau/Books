@@ -1,7 +1,7 @@
 # Tasks
-- [ ] get camera
+- [x] get camera
 - [ ] get screen
-- [ ] record camera frame
+- [x] record camera frame
 - [ ] play video frame
 - [ ] websocket refactoring
 - [ ] models getter / setter to access db
@@ -14,8 +14,8 @@
 - [ ] add tests tools
 - [ ] add tests tools lib
 - [ ] add tests integration tools
-- [ ] checkout webrtc
 - [ ] setup rpi as server permanent
 - [ ] look benchmarks / examples dir in rust
 - [ ] Result<HttpResponse, CustomError>
 - [ ] Setup SCP in rust
+- [ ] stop loop tools by ws
