@@ -1,12 +1,12 @@
 # Tasks
 - [x] get camera
-- [ ] get screen
+- [x] get screen
 - [x] record camera frame
-- [ ] play video frame
+- [x] play video frame
 - [ ] websocket refactoring
 - [ ] models getter / setter to access db
-- [ ] add CI server (fmt / clippy/ fix / test (on comment ?))
-- [ ] add CI tools (fmt / clippy/ fix / test (on comment ?))
+- [x] add CI server (fmt / clippy/ fix / test (on comment ?))
+- [x] add CI tools (fmt / clippy/ fix / test (on comment ?))
 - [ ] add tests server handlers
 - [ ] add tests server models
 - [ ] add tests server lib
@@ -16,6 +16,6 @@
 - [ ] add tests integration tools
 - [ ] setup rpi as server permanent
 - [ ] look benchmarks / examples dir in rust
-- [ ] Result<HttpResponse, CustomError>
+- [x] Result<HttpResponse, CustomError>
 - [ ] Setup SCP in rust
 - [ ] stop loop tools by ws
