@@ -19,4 +19,4 @@
 - [x] Result<HttpResponse, CustomError>
 - [x] setup SCP in rust
 - [ ] stop loop tools by ws
-- [ ] look protobuf micro services
+- [ ] look protobuf micro services (tonic is client)
