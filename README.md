@@ -103,6 +103,7 @@
 - `crossbeam-channel` :arrow_right: multi-producer multi-consumer channels for message passing
 - `derive_more` :arrow_right:  lots of builtin traits that are implemented for its basic types
 - `diesel` :arrow_right: safe, extensible ORM and Query Builder for PostgreSQL, SQLite, and MySQL
+- `dirs` :arrow_right: tiny low-level library that provides platform-specific standard locations of directories
 - `exitcode` :arrow_right: system exit code constants as defined by sysexits.h
 - `flate2` :arrow_right: DEFLATE compression and decompression exposed as Read/BufRead/Write streams. Supports miniz_oxide and multiple zlib implementations. Supports zlib, gzip, and raw deflate streams
 - `human-panic` :arrow_right: panic messages for humans
@@ -114,6 +115,7 @@
 - `serde` :arrow_right: generic serialization/deserialization framework
 - `serde_json` :arrow_right: JSON serialization file format
 - `signal-hook` :arrow_right: safe and correct Unix signal handling
+- `ssh2` :arrow_right: bindings to libssh2
 - `tokio` :arrow_right: event-driven, non-blocking I/O platform for writing asynchronous I/O backed applications
 - `tungstenite` :arrow_right: Lightweight, flexible WebSockets
 - `url` :arrow_right: implementation of the URL Standard
