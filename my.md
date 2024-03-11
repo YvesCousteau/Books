@@ -17,5 +17,6 @@
 - [ ] setup rpi as server permanent
 - [ ] look benchmarks / examples dir in rust
 - [x] Result<HttpResponse, CustomError>
-- [ ] Setup SCP in rust
+- [x] setup SCP in rust
 - [ ] stop loop tools by ws
+- [ ] look protobuf micro services
