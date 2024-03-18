@@ -20,3 +20,5 @@
 - [x] setup SCP in rust
 - [ ] stop loop tools by ws
 - [ ] look protobuf micro services (tonic is client)
+- [ ] create lib_ws with reader / writer
+- [ ] don't checl time in ws tool do a thread reader / writer
