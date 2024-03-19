@@ -22,3 +22,4 @@
 - [ ] look protobuf micro services (tonic is client)
 - [ ] create lib_ws with reader / writer
 - [ ] don't checl time in ws tool do a thread reader / writer
+- [ ] test of an entiery directory
