@@ -7,6 +7,7 @@
 	* John Gruber's Markdown Documentation <https://daringfireball.net/projects/markdown/>
 	* Awesome Markdown <https://github.com/mundimark/awesome-markdown>
 	* Github <https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax> 
+	* Github Emojis <https://gist.github.com/rxaviers/7360908>
 * App
 	* Dillinger as online editor <https://dillinger.io/>
 	* Simplenote as note app <https://app.simplenote.com/>
