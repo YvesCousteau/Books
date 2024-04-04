@@ -19,26 +19,9 @@
     * (to manage `Lazy` enter in command mode `:Lazy`)
 * install rust analyzer
 	* custom `~/.config/nvim/lua/plugin/init.lua`
-	* add this: ```lua
-	{
-		"neovim/nvim-lspconfig",
-		config = function()
-			require("nvchad.configs.lspconfig").defaults()
-			require "configs.lspconfig"
-		end,
-	},
-	{
-		"williamboman/mason.nvim",
-		opts = {
-			ensure_installed = {
-				"lua-language-server", "stylua",
-				"html-lsp", "css-lsp" , "prettier"
-			},
-		},
-	},
-	* ```
+	* (see `./assets/files/nvim_config.lua`)
+	* On command mode enter input `:MasonInstall rust-analyzer codelldb`.
 	* (to manage `Mason` enter in command mode `:Mason`)
-	* On neovim command mode we input `:MasonInstall rust-analyzer codelldb`.
 
 ## Shortcuts
 * N is used to indicate an optional count that can be given before the command.
