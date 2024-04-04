@@ -1,4 +1,4 @@
-# Commands
+# Neovim
 * All documentation is here <https://neovim.io/doc/user/quickref.html#Q_tm>
 
 ## Initialize
@@ -23,7 +23,10 @@
 	* On command mode enter input `:MasonInstall rust-analyzer codelldb`.
 	* (to manage `Mason` enter in command mode `:Mason`)
 
-## Shortcuts
+## Shortcuts Nvchad
+* `Ctrl-+-n`: to open file explorer :exclamation:
+
+## Shortcuts NeoVim
 * N is used to indicate an optional count that can be given before the command.
 * Absolute Motions
 	* cursor keys: move cursor left/right/up/down
