@@ -32,38 +32,56 @@ install thefuck
 sudo apt install thefuck
 ```
 > Auto-correct miss-typed commands 
+> Command: `fuck`
 
 install tldr
 ```
 sudo apt install tldr
 ```
 > Community-maintained docs (better `man`)
+> Command: `tldr`
+
+install tre 
+```
+sudo apt install tre
+```
+> Directory hierarchy (better `tree`)
+> Command: `tre`
+
+## Tool Monitoring
+install lazygit
+```
+wget https://github.com/jesseduffield/lazygit/releases/download/v0.37.0/lazygit_0.37.0_Linux_x86_64.tar.gz
+tar -xvf lazygit_0.37.0_Linux_x86_64.tar.gz
+# Here I change the name of the binary to launch faster by just writing "lg" (lazyness when you get me...)
+sudo mv lazygit /usr/bin/lg
+rm lazygit_0.37.0_Linux_x86_64.tar.gz
+```
+> Simple terminal UI for git commands
+> Command: `lg`
+
+install bpytop
+```
+sudo apt install bpytop
+```
+> Resource monitoring (better htop)
+> Command: `bpytop`
 
 install 
 ```
 
 ```
 >
+> Command: ``
 
 install 
 ```
 
 ```
 >
-
-install 
-```
-
-```
->
+> Command: ``
 
 ## Tool ...
-install 
-```
-
-```
->
-
 Easy navigation (better cd)
 	* `sudo apt install zoxide`
 * install tldr
@@ -114,21 +132,3 @@ Easy navigation (better cd)
 * install ctop
 	* Container metrics and monitoring 
 	* `sudo apt install ctop`
-* install bpytop
-	* Resource monitoring (better `htop`)
-	* `sudo apt install bpytop`
-* install
-	* 
-	* `sudo apt install `
-* install
-	* 
-	* `sudo apt install `
-* install
-	* 
-	* `sudo apt install `
-* install
-	* 
-	* `sudo apt install `
-* install
-	* 
-	* `sudo apt install `
