@@ -1,59 +1,59 @@
 # Emojis
-* `:star:`: yellow star
-* `:boom:`: red explosion
-* `:exclamation:`: red exclamation mark
-* `:fire:`: yellow fire
-* `:-1:`: yellow thumb down
-* `:+1:`: yellow thumb up
-* `:question:`: red question mark
-* `:skull:`: white human skull
-* `:trollface:`: white meme troll face 
-* `:heart:`: red heart
-* `:anger:`: red anger sign
-* `:ok_hand:`: yellow ok hand sign
-* `:thought_balloon:`: white cloud idea
-* `:goat:`: goat animal
-* `:snowflake:`: snow flake
-* `:bug:`: bug insect
-* `:shell:`: shell
-* `:zap:`: thunder bolt
-* `:globe_with_meridians:`: digital earth
-* `:floppy_disk:`: old memory disk
-* `:speaker:`: speaker
-* `:mute:`: mute speaker
-* `:minidisc:`: cd disk
-* `:satellite:`: satellite
-* `:bulb:`: light on
-* `:outbox_tray:`: outbox tray
-* `:inbox_tray:`: inbox tray
-* `:moneybag:`: bag of money
-* `:bomb:`: bomb
-* `:notebook_with_decorative_cover:`: brown notebook
-* `:trophy:`: yellow trophy
-* `:memo:`: memo with pen
-* `:briefcase:`: briefcase
-* `:video_game:`: game controller
-* `:pencil2:`: yellow pencil
-* `:straight_ruler:`: yellow straight ruler
-* `:pushpin:`: red pushpin
-* `:paperclip:`: gray paperclip
-* `:file_folder:`: blue file folder
-* `:date:`: calendar
-* `:scroll:`: parchment
-* `:bar_chart:`: chart
-* `:wrench:`: gray wrench
-* `:electric_plug:`: electric plug
-* `:lock:`: lock
-* `:hourglass:`: hourglass
-* `:computer:`: computer
-* `:factory:`: factory building
-* `:rotating_light:`: red alarm
-* `:warning:`: yellow warning sign
-* `:construction:`: yellow construction
-* `:fr:`: french flag
-* `:uk:`: united kingdom flag
-* `:repeat:`: blue loop sign 
-* `:x:`: red X mark
-* `:copyright:`: copyright sign
-* `:soon:`: soon sign
-* `:no_entry:`: red no entry sign
+* `:star:`: yellow star :star:
+* `:boom:`: red explosion :boom:
+* `:exclamation:`: red exclamation mark :exclamation:
+* `:fire:`: yellow fire :fire:
+* `:-1:`: yellow thumb down :-1:
+* `:+1:`: yellow thumb up :+1:
+* `:question:`: red question mark :question:
+* `:skull:`: white human skull :skull:
+* `:trollface:`: white meme troll face :trollface: 
+* `:heart:`: red heart :heart:
+* `:anger:`: red anger sign :anger:
+* `:ok_hand:`: yellow ok hand sign :ok_hand:
+* `:thought_balloon:`: white cloud idea :thought_balloon:
+* `:goat:`: goat animal :goat:
+* `:snowflake:`: snow flake :snowflake:
+* `:bug:`: bug insect :bug:
+* `:shell:`: shell :shell:
+* `:zap:`: thunder bolt :zap:
+* `:globe_with_meridians:`: digital earth :globe_with_meridians:
+* `:floppy_disk:`: old memory disk :floppy_disk:
+* `:speaker:`: speaker :speaker:
+* `:mute:`: mute speaker :mute:
+* `:minidisc:`: cd disk :minidisc:
+* `:satellite:`: satellite :satellite:
+* `:bulb:`: light on :bulb:
+* `:outbox_tray:`: outbox tray :outbox_tray:
+* `:inbox_tray:`: inbox tray :inbox_tray:
+* `:moneybag:`: bag of money :moneybag:
+* `:bomb:`: bomb :bomb:
+* `:notebook_with_decorative_cover:`: brown notebook :notebook:
+* `:trophy:`: yellow trophy :trophy:
+* `:memo:`: memo with pen :memo:
+* `:briefcase:`: briefcase :briefcase:
+* `:video_game:`: game controller :video_game:
+* `:pencil2:`: yellow pencil :pencil2:
+* `:straight_ruler:`: yellow straight ruler :straight_ruler:
+* `:pushpin:`: red pushpin :pushpin:
+* `:paperclip:`: gray paperclip :paperclip:
+* `:file_folder:`: blue file folder :file_folder:
+* `:date:`: calendar :date:
+* `:scroll:`: parchment :scroll:
+* `:bar_chart:`: chart :bar_chart:
+* `:wrench:`: gray wrench :wrench:
+* `:electric_plug:`: electric plug :electric_plug:
+* `:lock:`: lock :lock:
+* `:hourglass:`: hourglass :hourglass:
+* `:computer:`: computer :computer:
+* `:factory:`: factory building :factory:
+* `:rotating_light:`: red alarm :rotating_light:
+* `:warning:`: yellow warning sign :warning:
+* `:construction:`: yellow construction :construction:
+* `:fr:`: french flag :fr:
+* `:uk:`: united kingdom flag :uk:
+* `:repeat:`: blue loop sign  :repeat:
+* `:x:`: red X mark :x:
+* `:copyright:`: copyright sign :copyright:
+* `:soon:`: soon sign :soon:
+* `:no_entry:`: red no entry sign :no_entry:
