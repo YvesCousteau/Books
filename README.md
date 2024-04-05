@@ -1,16 +1,8 @@
-# Rust Survival Books
+# Books
+To convert pdf convert Markdown to Html
+```sheel
+pip3 install grip
+grip {file_name}.md --export {file_name}.html
+```
+To get pdf open html file with google app and print it.
 
-## :bulb: Devellopement Technique
-- Test Driven Development
-- Compiler Driven Development
-- State-of-the-art / Idioms
-
-## :mag: Notions
-- Compile Time
-- Running Time
-- Borrowing Rules
-- No Inheritance
-
-## :wrench: Commands
-- `cargo`
-  - `run` `fix` `fmt` `clippy` `test` `doc` `build` `install`

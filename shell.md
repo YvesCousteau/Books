@@ -24,21 +24,47 @@ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install 
 fish install --path=~/.local/share/omf --config=~/.config/omf
 curl -sL https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install.sha256 | shasum -a 256 --check
 ```
-
-
+add `plugins=(git bundler osx rake ruby)` and update `OSH_THEME="agnoster" to `.`
 
 ## Tool Utils
+install thefuck
+```
+sudo apt install thefuck
+```
+> Auto-correct miss-typed commands 
+
+install tldr
+```
+sudo apt install tldr
+```
+> Community-maintained docs (better `man`)
+
+install 
+```
+
+```
+>
+
+install 
+```
+
+```
+>
+
+install 
+```
+
+```
+>
 
 ## Tool ...
-* install oh-my-bash
-    * `bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"`
-    * add `plugins=(git bundler osx rake ruby)` to `.bashrc`
-    * update `OSH_THEME="agnoster"` to `.bashrc`
-* install thefuck
-	* Auto-correct miss-typed commands 
-    * `sudo apt install thefuck`
-* install zoxide
-	* Easy navigation (better cd)
+install 
+```
+
+```
+>
+
+Easy navigation (better cd)
 	* `sudo apt install zoxide`
 * install tldr
 	* Community-maintained docs (better `man`)
