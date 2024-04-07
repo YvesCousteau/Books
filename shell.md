@@ -16,6 +16,10 @@ sudo apt install fish
 
 Changes are, in turn, stored in the `~/.config/fish` folder and can be accessed and edited there to dodge the optional web configuration.
 
+## aliases
+* `cat` => `batcat`
+* `ls` => `exa --icons --all --colour auto --long`
+
 ## Tool Beauties
 * oh-my-fish
 ```shell
@@ -47,6 +51,13 @@ sudo apt install tre
 ```
 > Directory hierarchy (better `tree`)
 > Command: `tre`
+
+install batcat
+```
+sudo apt install bat
+```
+> Reading Files (better  `cat`)
+> Command: `batcat`
 
 ## Tool Monitoring
 install lazygit
