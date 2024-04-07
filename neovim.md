@@ -23,22 +23,20 @@
 	* On command mode enter input `:MasonInstall rust-analyzer codelldb`.
 	* (to manage `Mason` enter in command mode `:Mason`)
 
-## Shortcuts for Rust coding workflow
-* `gc`: (visual mode) comments multi lines :exclamation:
-* `shift`: jump into the next open file :exclamation:
+## Shortcuts Fav 
+* `gc`: (visual mode) comments multi lines
+* `shift`: jump into the next open file
+* `space-e`: open file explorer 
+* `Ctrl-h`: focus on file explorer 
+* `Ctrl-l`: focus on file 
+* `space-q`: open and close log terminal
+* `(hjkl)`: move in panel 
+* `Maj-k`: check reference variable
+* `Ctrl-(hjkl)`: move through panels
+* `%`: match the next enlosure
+* `:Lsp`: manage rust analyser
 
-## Shortcuts Nvchad
-* `Ctrl-+-n`: open file explorer :exclamation:
-* `Ctrl-h`: focus on file explorer :exclamation:
-* `Ctrl-l`: focus on file :exclamation:
-
-## Shortcuts NeoVim Fav
-* `k`: go to upper line :exclamation:
-* `j`: go to downer line :exclamation:
-* `h`: go to lefter character :exclamation:
-* `l`: go to righter character :exclamation:
-
-## Shortcuts NeoVim
+## Shortcuts 
 * N is used to indicate an optional count that can be given before the command.
 * Absolute Motions
 	* cursor keys: move cursor left/right/up/down
