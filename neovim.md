@@ -31,13 +31,19 @@
 * `Ctrl-l`: focus on file 
 * `space-q`: open and close log terminal
 * `(hjkl)`: move in panel 
-* `Maj-k`: check reference variable
+* `Maj-k`: check type
 * `Ctrl-(hjkl)`: move through panels
 * `%`: match the next enlosure
-* `:Lsp`: manage rust analyser
+* `:Lsp`: manage rust analyser Plugin
+* `:Markdown`: manae markdown Plugin
+* `:w`: save without exit
+* `w`: jump to the begin of the next word
+* `e`: jump to the end of the next word
+* `G`: go to the last non blank line 
+* `gg`: go to the first non blank line
+* `gr`: go to the reference
 
 ## Shortcuts 
-* N is used to indicate an optional count that can be given before the command.
 * Absolute Motions
 	* cursor keys: move cursor left/right/up/down
 	* `Shift-`left/right: one word left/right :exclamation:
@@ -47,8 +53,6 @@
 	* `^`: to go at the first non blank character of the line :grey_exclamation:
 	* `-`: up on the first non blank character of the line :grey_exclamation:
 	* `+`: down on the first non blank character of the line :grey_exclamation:
-	* `G`: go to the last non blank line :exclamation:
-	* `gg`: go to the first non blank line :exclamation:
 	* `{0-*}`: go to the line :exclamation:
 	* `CTRL-O`: go to older position in jump list :exclamation:
 	* `CTRL-I`: go to newer position in jump list :exclamation:
@@ -58,8 +62,6 @@
 	* `M`: go to the middle line in the window, on the first non-blank :exclamation:
 	* `L`: go to the line from the bottom, on the first non-blank :exclamation:
 * Text object motions
-	* `w`: go to the next word (first character) :exclamation: 
-	* `e`: go to the next word (last character) :exclamation: 
 	* `b`: go to the previous word (first character) :exclamation: 
 	* `ge`: go to the previous word (last character) :exclamation: 
 	* `}`: go to the next paragraph :exclamation: 
