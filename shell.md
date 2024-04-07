@@ -19,6 +19,10 @@ Changes are, in turn, stored in the `~/.config/fish` folder and can be accessed 
 ## aliases
 * `cat` => `batcat`
 * `ls` => `exa --icons --all --colour auto --long`
+* `fr` => `setxkbmap fr`
+* `en` => `setxkbmap us`
+* `tree` => `tre`
+* `man` => `tldr`
 
 ## Tool Beauties
 * oh-my-fish
@@ -59,6 +63,13 @@ sudo apt install bat
 > Reading Files (better  `cat`)
 > Command: `batcat`
 
+install exa
+```
+sudo apt install exa
+```
+> Listing Files (better `ls`)
+> Command: `exa`
+
 ## Tool Monitoring
 install lazygit
 ```
@@ -77,13 +88,6 @@ sudo apt install bpytop
 ```
 > Resource monitoring (better htop)
 > Command: `bpytop`
-
-install 
-```
-
-```
->
-> Command: ``
 
 install 
 ```
