@@ -16,6 +16,12 @@ sudo apt install fish
 
 Changes are, in turn, stored in the `~/.config/fish` folder and can be accessed and edited there to dodge the optional web configuration.
 
+### Install `fisher`
+A plugin manager for fish
+```
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+```
+
 ## aliases
 * `cat` => `batcat`
 * `ls` => `exa --icons --all --colour auto --long`
@@ -69,6 +75,13 @@ sudo apt install exa
 ```
 > Listing Files (better `ls`)
 > Command: `exa`
+
+install nvm
+```
+fisher remove jorgebucaran/nvm.fish
+```
+> Node Version Manager
+> Command: `nvm`
 
 ## Tool Monitoring
 install lazygit
