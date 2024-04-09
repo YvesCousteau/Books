@@ -14,17 +14,24 @@ cd tmux-3.4/
 ./configure && make && sudo make install
 ```
 
+### Installing TPM 
+Tmux Plugin Manager. It allows you to create and install tmux plugins easily.
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
 ## Shortcuts Fav
 Every commands have to be called by `Ctrl-a`
 * `-`: splilt panel vertically
 * `|`: split horizontally
-* `r`: reload config
 * `c`: create new window
 * `&`: kill current window
 * `!`: break pane to a new window
 * `x`: kill the active pane
 * `z`: zoom the active pane 
 * `Alt-(UpDownLeftRight)`: move through panels
+* `(<>)`:swapping windows
+* `a`: toggle between the current and previous windoz
 
 ## Shortcuts
 Every commands have to be called by `Ctrl-a`
