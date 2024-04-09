@@ -32,6 +32,9 @@ Every commands have to be called by `Ctrl-a`
 * `Alt-(UpDownLeftRight)`: move through panels
 * `(<>)`:swapping windows
 * `a`: toggle between the current and previous windoz
+* `,`: rename window
+* `Ctrl-s`: save tmux environement
+* `Ctrl-r`: restore tmux environement
 
 ## Shortcuts
 Every commands have to be called by `Ctrl-a`
