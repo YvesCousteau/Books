@@ -29,6 +29,7 @@ curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fi
 * `en` => `setxkbmap us`
 * `tree` => `tre`
 * `man` => `tldr`
+* `vi` => `nvim`
 
 ## Tool Beauties
 * oh-my-fish

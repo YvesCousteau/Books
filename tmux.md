@@ -22,19 +22,19 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ## Shortcuts Fav
 Every commands have to be called by `Ctrl-a`
-* `-`: splilt panel vertically
-* `|`: split horizontally
-* `c`: create new window
-* `&`: kill current window
-* `!`: break pane to a new window
-* `x`: kill the active pane
-* `z`: zoom the active pane 
-* `Alt-(UpDownLeftRight)`: move through panels
-* `(<>)`:swapping windows
-* `a`: toggle between the current and previous windoz
-* `,`: rename window
-* `Ctrl-s`: save tmux environement
-* `Ctrl-r`: restore tmux environement
+* `-`: splilt panel vertically :cyclone:
+* `|`: split horizontally :cyclone:
+* `c`: create new window :cyclone:
+* `&`: kill current window :cyclone:
+* `!`: break pane to a new window :cyclone:
+* `x`: kill the active pane :cyclone:
+* `z`: zoom the active pane :cyclone:
+* `Alt-(UpDownLeftRight)`: move through panels :cyclone:
+* `a`: toggle between the current and previous window :cyclone:
+* `,`: rename window :wrench:
+* `Ctrl-s`: save tmux environement :wrench:
+* `Ctrl-r`: restore tmux environement :wrench:
+* `Shift-Click`: select text :computer:
 
 ## Shortcuts
 Every commands have to be called by `Ctrl-a`
@@ -59,4 +59,4 @@ Every commands have to be called by `Ctrl-a`
 * `Down`: select the pane below the active pane 
 * `Left`: select the pane to the left of the active pane 
 * `Right`: select the pane to the right of the active pane
-
+* `(<>)`:swapping windows :cyclone:
