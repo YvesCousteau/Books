@@ -1,27 +1,28 @@
 # Neovim
-* All documentation is here <https://neovim.io/doc/user/quickref.html#Q_tm>
+All documentation is here <https://neovim.io/doc/user/quickref.html#Q_tm>
 
 ## Initialize
-* install neovim
-	* <https://github.com/neovim/neovim/releases>
-	* `curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage`
-	* `chmod u+x nvim.appimage`
-	* `mkdir -p /opt/nvim`
-	* `mv nvim.appimage /opt/nvim/nvim`
-	* add to `~/.bashrc` this: `export PATH="$PATH:/opt/nvim/"`
-	* `source ~/.bashrc`
-* using Nerd fonts
-	* <https://www.nerdfonts.com/font-downloads>
-* using nvchad
-    * `git clone https://github.com/NvChad/starter ~/.config/nvim && nvim`
-    * Run `:MasonInstallAll` command after `lazy.nvim` finishes downloading plugins.
-    * Delete the `.git` folder from `nvim` folder
-    * (to manage `Lazy` enter in command mode `:Lazy`)
-* install rust analyzer
-	* custom `~/.config/nvim/lua/plugin/init.lua`
-	* (see `./assets/files/nvim_config.lua`)
-	* On command mode enter input `:MasonInstall rust-analyzer codelldb`.
-	* (to manage `Mason` enter in command mode `:Mason`)
+Install `neovim`: <https://github.com/neovim/neovim/releases>
+```
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+chmod u+x nvim.appimage
+mkdir -p /opt/nvim
+mv nvim.appimage /opt/nvim/nvim
+```
+Add to `~/.bashrc` this: `export PATH="$PATH:/opt/nvim/"`
+```
+source ~/.bashrc
+```
+Using Nerd fonts <https://www.nerdfonts.com/font-downloads>
+Using nvchad: `git clone https://github.com/NvChad/starter ~/.config/nvim && nvim`
+Run `:MasonInstallAll` command after `lazy.nvim` finishes downloading plugins.
+Delete the `.git` folder from `nvim` folder
+(to manage `Lazy` enter in command mode `:Lazy`)
+Install rust analyzer
+Custom `~/.config/nvim/lua/plugin/init.lua`
+(see `./assets/files/nvim_config.lua`)
+On command mode enter input `:MasonInstall rust-analyzer codelldb`.
+(to manage `Mason` enter in command mode `:Mason`)
 
 ## Shortcuts Fav 
 * `space-/`: (visual mode) comments multi lines :wrench:
@@ -49,13 +50,22 @@
 * `yy`: copy current line :wrench:
 * `x`: :delete cusor highlight :wrench:
 * `dd`: delete current line :wrench:
-* `space+b`: create new file :wrench:
 * `Ctrl-s`: save file :wrench:
 * `:q!`: exit file without saving (force) :wrench:
 * `:x`: exit file with saving :wrench:
+* `a`: (nvimtree) create a file or directory :wrench:
+* `u`: (nvimtree) rename or move :wrench:
+* `c`: (nvimtree) copy :wrench:
+* `q`: (nvimtree) close :computer:
+* `p`: (nvimtree) past :wrench:
+* `d`: (nvimtree) delete :wrench:
+* `gy`: (nvimtree) copy absolute path :wrench:
+* `y`: (nvimtree) copy name :wrench:
 
 ## Shortcuts 
 * `space-ch`: show cheatsheet :computer:
+* `space+b`: create new file :wrench:
+* `g?`: (nvimtree) show help :computer:
 * `:w`: save without exit :wrench:
 * `Ctrl-h`: focus on file explorer :cyclone:
 * `Ctrl-l`: focus on file :cyclone:

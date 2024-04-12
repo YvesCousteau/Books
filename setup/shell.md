@@ -91,7 +91,6 @@ install lazygit
 ```
 wget https://github.com/jesseduffield/lazygit/releases/download/v0.37.0/lazygit_0.37.0_Linux_x86_64.tar.gz
 tar -xvf lazygit_0.37.0_Linux_x86_64.tar.gz
-# Here I change the name of the binary to launch faster by just writing "lg" (lazyness when you get me...)
 sudo mv lazygit /usr/bin/lg
 rm lazygit_0.37.0_Linux_x86_64.tar.gz
 ```
@@ -105,6 +104,16 @@ sudo apt install bpytop
 > Resource monitoring (better htop)
 > Command: `bpytop`
 
+install rofi
+```
+sudo apt install rofi
+rofi -dump-config > ~/.config/rofi/config.rasi
+```
+> A popup window switcher
+> Command: `rofi -show`
+
+## Tool ...
+
 install 
 ```
 
@@ -112,7 +121,9 @@ install
 >
 > Command: ``
 
-## Tool ...
+
+
+
 Easy navigation (better cd)
 	* `sudo apt install zoxide`
 * install tldr
