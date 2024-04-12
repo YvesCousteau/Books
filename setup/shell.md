@@ -30,6 +30,8 @@ curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fi
 * `tree` => `tre`
 * `man` => `tldr`
 * `vi` => `nvim`
+* `monitor-gui` => `arandr`
+* `audio-gui` => `pavucontrol`
 
 ## Tool Beauties
 * oh-my-fish
