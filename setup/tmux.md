@@ -22,8 +22,14 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ## Shortcuts Fav
 Every commands have to be called by `Ctrl-a`
-* `-`: splilt panel vertically :cyclone:
-* `|`: split horizontally :cyclone:
+* `h`: Move cursor to pane left
+* `l`: Move cursor to pane right
+* `j`: Move cursor to pane bottom
+* `k`: Move cursor to pane top
+* `_`: splilt panel horizontally 50% :cyclone:
+* `-`: splilt panel vertically 50% :cyclone:
+* `/`: split panel horizontally 25% :cyclone:
+* `|`: split panel vertically 25% :cyclone:
 * `c`: create new window :cyclone:
 * `&`: kill current window :cyclone:
 * `!`: break pane to a new window :cyclone:
@@ -38,6 +44,10 @@ Every commands have to be called by `Ctrl-a`
 
 ## Shortcuts
 Every commands have to be called by `Ctrl-a`
+* `H`: Resize pane left 5 pixels
+* `L`: Resize pane right 5 pixels
+* `J`: Resize pane bottom 5 pixels
+* `K`: Resize pane top 5 pixels
 * `Ctrl-o`: rotate through the panes 
 * `o`: select the next pane 
 * `p`: select the previous window
