@@ -32,6 +32,13 @@ curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fi
 * `vi` => `nvim`
 * `monitor-gui` => `arandr`
 * `audio-gui` => `pavucontrol`
+* `find` => `fzf`
+* `ps` => `procs`
+* `grep` => `rg -n -w`
+* `sed` => `sd`
+* `weather` => `curl wttr.in` 
+* `lzd` => `docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock lazyteam/lazydocker`
+* `du` => `dua interactive`
 
 ## Tool Beauties
 * oh-my-fish
@@ -41,7 +48,7 @@ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install 
 fish install --path=~/.local/share/omf --config=~/.config/omf
 curl -sL https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install.sha256 | shasum -a 256 --check
 ```
-add `plugins=(git bundler osx rake ruby)` and update `OSH_THEME="agnoster" to `.`
+add `plugins=(git bundler osx rake ruby)` and update `OSH_THEME="agnoster"` to `.`
 
 ## Tool Utils
 install thefuck
@@ -86,6 +93,64 @@ fisher remove jorgebucaran/nvm.fish
 > Node Version Manager
 > Command: `nvm`
 
+install fzf
+```
+sudo apt install fzf
+```
+> Fuzzy file finder
+> Command: `fzf`
+
+install jq
+```
+sudo apt install jq
+```
+> JSON processor
+> Command: `jq`
+
+install procs
+```
+sudo apt install procs
+```
+> Process viewer
+> Command: `procs`
+
+install ripgrep
+```
+sudo apt install ripgrep
+```
+> Search within files
+> Command: `rg`
+
+
+install sd
+```
+sudo apt install sd
+```
+> Find and replace
+> Command: `sd`
+
+install xsel
+```
+sudo apt install xsel
+```
+> Access the clipboard
+> Command: `xsel`
+
+install httpie
+```
+sudo apt install httpie
+```
+> HTTP / API testing testing client
+> Command: `http` & `https`
+
+install dua-cli
+```
+curl -LSfs https://raw.githubusercontent.com/Byron/dua-cli/master/ci/install.sh | sh -s -- --git Byron/dua-cli --target x86_64-unknown-linux-musl --crate dua --tag v2.17.4
+```
+> Disk usage analyzer and monitor
+> Command: `dua-cli`
+
+
 ## Tool Monitoring
 install lazygit
 ```
@@ -112,65 +177,16 @@ rofi -dump-config > ~/.config/rofi/config.rasi
 > A popup window switcher
 > Command: `rofi -show`
 
-## Tool ...
-
-install 
+install lazydocker
 ```
-
+go install github.com/jesseduffield/lazydocker@latest
 ```
->
-> Command: ``
+> Full Docker management app
+> Command: `docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock lazyteam/lazydocker`
 
-
-
-
-Easy navigation (better cd)
-	* `sudo apt install zoxide`
-* install tldr
-	* Community-maintained docs (better `man`)
-	* `sudo apt install tldr`
-* install scc
-	* Count lines of code (better `cloc`)
-	* `sudo apt install scc`
-* install exa
-	* Listing Files (better `ls`)
-	* `sudo apt install exa`
-* install duf
-	* Disk Usage (better `df`)
-	* `sudo apt install duf`
-* install bat
-	* Reading Files (better `cat`)
-	* `sudo apt install bat`
-* install diff-so-fancy
-	* File Comparisons (better `diff`)
-	* `sudo apt install diff-so-fancy`
-* install fzf
-	* Fuzzy file finder (better `find`)
-	* `sudo apt install fzf`
-* install jq
-	* JSON processor 
-	* `sudo apt install jq`
-* install procs
-	* Process viewer (better `ps`)
-	* `sudo apt install procs`
-* install rip
-	* Deletion tool (better `rm`)
-	* `sudo apt install rip`
-* install ripgrep
-	* Search within files (better `grep`)
-	* `sudo apt install ripgrep`
-* install sd
-	* Find and replace (better `sed`)
-	* `sudo apt install sd`
-* install tre
-	* Directory hierarchy (better `tree`)
-	* `sudo apt install tre`
-* install xsel
-	* Access the clipboard 
-	* `sudo apt install xsel`
-* install bandwhich
-	* Bandwidth utilization monitor 
-	* `sudo snap install bandwhich`
-* install ctop
-	* Container metrics and monitoring 
-	* `sudo apt install ctop`
+install gping
+```
+cargo install gping
+```
+> Interactive ping tool
+> Command: `gping`
