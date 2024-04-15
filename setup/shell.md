@@ -150,6 +150,12 @@ curl -LSfs https://raw.githubusercontent.com/Byron/dua-cli/master/ci/install.sh 
 > Disk usage analyzer and monitor
 > Command: `dua-cli`
 
+install flameshot
+```
+sudo apt flameshot
+```
+> ScreenShot Tool
+> Command: `flameshot`
 
 ## Tool Monitoring
 install lazygit

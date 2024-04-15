@@ -61,6 +61,8 @@ On command mode enter input `:MasonInstall rust-analyzer codelldb`.
 * `d`: (nvimtree) delete :wrench:
 * `gy`: (nvimtree) copy absolute path :wrench:
 * `y`: (nvimtree) copy name :wrench:
+* `space-ff`: open file finder :wrench:
+* `space-fw`: open word finder :wrench:
 
 ## Shortcuts 
 * `space-ch`: show cheatsheet :computer:
