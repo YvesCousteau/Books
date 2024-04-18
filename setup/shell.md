@@ -22,24 +22,6 @@ A plugin manager for fish
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
 ```
 
-## aliases
-* `cat` => `batcat`
-* `ls` => `exa --icons --all --colour auto --long`
-* `fr` => `setxkbmap fr`
-* `en` => `setxkbmap us`
-* `tree` => `tre`
-* `man` => `tldr`
-* `vi` => `nvim`
-* `monitor-gui` => `arandr`
-* `audio-gui` => `pavucontrol`
-* `find` => `fzf`
-* `ps` => `procs`
-* `grep` => `rg -n -w`
-* `sed` => `sd`
-* `weather` => `curl wttr.in` 
-* `lzd` => `docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock lazyteam/lazydocker`
-* `du` => `dua interactive`
-
 ## Tool Beauties
 * oh-my-fish
 ```shell

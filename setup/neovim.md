@@ -24,7 +24,7 @@ Custom `~/.config/nvim/lua/plugin/init.lua`
 On command mode enter input `:MasonInstall rust-analyzer codelldb`.
 (to manage `Mason` enter in command mode `:Mason`)
 
-## Shortcuts Fav 
+## Shortcuts 
 * `space-/`: (visual mode) comments multi lines :wrench:
 * `tab`: jump into the next open file :cyclone:
 * `Shift-tab`: jump into the previous open file :cyclone:
@@ -63,8 +63,6 @@ On command mode enter input `:MasonInstall rust-analyzer codelldb`.
 * `y`: (nvimtree) copy name :wrench:
 * `space-ff`: open file finder :wrench:
 * `space-fw`: open word finder :wrench:
-
-## Shortcuts 
 * `space-ch`: show cheatsheet :computer:
 * `space+b`: create new file :wrench:
 * `g?`: (nvimtree) show help :computer:

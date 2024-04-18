@@ -20,7 +20,7 @@ Tmux Plugin Manager. It allows you to create and install tmux plugins easily.
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-## Shortcuts Fav
+## Shortcuts
 Every commands have to be called by `Ctrl-a`
 * `h`: Move cursor to pane left
 * `l`: Move cursor to pane right
@@ -41,9 +41,6 @@ Every commands have to be called by `Ctrl-a`
 * `Ctrl-s`: save tmux environement :wrench:
 * `Ctrl-r`: restore tmux environement :wrench:
 * `Shift-Click`: select text :computer:
-
-## Shortcuts
-Every commands have to be called by `Ctrl-a`
 * `H`: Resize pane left 5 pixels
 * `L`: Resize pane right 5 pixels
 * `J`: Resize pane bottom 5 pixels
