@@ -25,70 +25,138 @@ Custom `~/.config/nvim/lua/plugin/init.lua`
 On command mode enter input `:MasonInstall rust-analyzer codelldb`.
 (to manage `Mason` enter in command mode `:Mason`)
 
-## Shortcuts
+## Shortcuts App
+* `:Lazy`: packet manager :wrench:
+* `:Mason`: packet manager :wrench:
+* `:Lsp`: manage rust analyser Plugin :wrench:
+* `:Markdown`: manage markdown Plugin :computer:
+* `:source`: reload neovim config :computer:
+* `<leader>+ff`: find file :computer:
+* `<leader>+fw`: live grep :computer:
+* `<leader>+th`: nvchad themes :computer:
+* `<leader>+ch`: show cheatsheet :computer:
+
+## Shortcuts Panel
 ### Common
-* `Ctrl-(hjkl)`: move through panels :cyclone:
+* `<ctrl>+[hjkl]`: move through panels :cyclone:
 * `tab`: jump into the next open file :cyclone:
-* `Shift-tab`: jump into the previous open file :cyclone:
-* `Space-e`: open file explorer :computer:
-* `Space-q`: open and close log terminal :computer:
+* `<shift>+tab`: jump into the previous open file :cyclone:
+* `<leader>+e`: open file explorer :computer:
+* `<leader>+q`: open and close log terminal :computer:
 * `:x`: exit file with saving :wrench:
 * `:w`: save without exit :wrench:
-* `Space-h`: open horizontal term :computer:
-* `Space-x`: close file :computer:
+* `<leader>+h`: open horizontal term :computer:
+* `<leader>+x`: close file :computer:
+* `:sp`: split the window horizontally
+* `:vsp`: split the window vertically
 
-* `(hjkl)`: move in panel :cyclone:
+### Uncommon
+* `:q!`: exit file without saving (force) :wrench:
+* `<leader>+v`: open vertical term :computer:
+* `<leader>+b`: create new file :wrench:
+* `<alt>+i`: open floating terminal :computer:
+* `<ctrl>+c`: copy all file :wrench:
+* `:wa`: save all open buffers to disk :wrench:
+
+## Shortcuts Motion 
+### Common
+* `[hjkl]`: move in panel :cyclone:
+* `$`: move cursor to end of line :cyclone:
+* `^`: move cursor to first non-whitespace character of line :cyclone:
+* `0`: move cursor to beginning of line :cyclone:
 * `G`: go to the last non blank line :cyclone:
 * `gg`: go to the first non blank line :cyclone:
 * `w`: jump to the begin of the next word :cyclone:
 * `e`: jump to the end of the next word :cyclone:
 * `b`: jump to the begin of the previouscword :cyclone:
+* `<ctrl>+b`: (insert) move at the begining of the line panel :cyclone:
+* `<ctrl>+e`: (insert) move at the ending of the line panel :cyclone:
 
+### Uncommon
+* `<ctrl>+[hjkl]`: (insert) move in panel :cyclone:
+* `%`: match the next enlosure :cyclone:
+* `)`: sentence forward
+* `(`: sentence backwards
+* `}`: paragraph forward
+* `{`: paragraph backwards
+
+## Shortcuts Rust 
+### Common
 * `gk`: show type :wrench:
 * `gK`: go to type :cyclone:
 * `gr`: go to reference :cyclone:
 * `gd`: go to definition :cyclone:
 * `gD`: go to implementations :cyclone:
-* `Space+ds`: open lsp diagnostic :computer:
-
-* `Space-/`: (visual mode) comments multi lines :wrench:
-* `Ctrl-b`: (insert) move at the begining of the line panel :cyclone:
-* `Ctrl-e`: (insert) move at the ending of the line panel :cyclone:
-* `yy`: copy current line :wrench:
-* `dd`: delete current line :wrench:
-* `x`: :delete cusor highlight :wrench:
-* `y`: copy selection :wrench:
-
-* `a`: (nvimtree) create a file or directory :wrench:
-* `u`: (nvimtree) rename or move :wrench:
-* `d`: (nvimtree) delete :wrench:
-* `c`: (nvimtree) copy :wrench:
-* `p`: (nvimtree) past :wrench:
-
-* `Space-ff`: find file :computer:
-* `Space-fw`: live grep :computer:
+* `<leader>+ds`: open lsp diagnostic :computer:
 
 ### Uncommon
-* `:q!`: exit file without saving (force) :wrench:
-* `Space-v`: open vertical term :computer:
-* `Space+b`: create new file :wrench:
-* `Alt-i`: open floating terminal :computer:
-* `Ctrl-c`: copy all file :wrench:
 
-* `Ctrl-(hjkl)`: (insert) move in panel :cyclone:
+## Shortcuts Nvimtree 
+### Common
+* `a`: create a file or directory :wrench:
+* `u`: rename or move :wrench:
+* `d`: delete :wrench:
+* `c`: copy :wrench:
+* `p`: past :wrench:
 
+### Uncommon
+* `gy`: copy absolute path :wrench:
+* `y`: copy name :wrench:
+* `q`: close :computer:
+* `g?`: show help :computer:
 
+## Shortcuts Editing
+### Common
+* `i`: enter **Insert** mode before the cursor :cyclone:
+* `a`: enter **Insert** mode after the cursor :cyclone:
+* `I`: enter **Insert** mode at beginning of the line :cyclone:
+* `A`: enter **Insert** mode at the end of the line :cyclone:
+* `o`: insert a new line below the current line and enter **Insert** mode :cyclone:
+* `O`: insert a new line above the current line and enter **Insert** mode :cyclone:
+* `yy`: copy current line :wrench:
+* `dd`: delete current line :wrench:
+* `<leader>+/`: (visual mode) comments multi lines :wrench:
+* `u`: undo the last change :wrench:
+* `<ctrl>+r`: redo the last change :wrench:
+* `cw`: change from cursor to end of word and enter **Insert** mode
+* `cb`: change from cursor to beginning of word and enter **Insert** mode
+* `x`: :delete cusor highlight :wrench:
+* `<esc>`: leave **INSERT** mode 
+* `<del>`: delete left
+* `<fn>+<del>`: delete right
+* `<ctrl>+w`: delete word before cursor
+* `<ctrl>+u`: delete word after cursor
+* `dw`: delete current word
 
-* `%`: match the next enlosure :cyclone:
+### Uncommon
+* `D`: delete from the cursor to the end of the line :wrench:
+
+## Shortcuts Visual Mode
+### Common
+* `v`: enter **Visual** mode and select text character by character :cyclone:
+* `V`: enter **Visual** mode and select text line by line :cyclone:
+* `y`: copy selection :wrench:
+
+### Uncommon
 * `d`: delete selection :wrench:
+* `c`: change the selected text and enter **Insert** mode
 
-* `gy`: (nvimtree) copy absolute path :wrench:
-* `y`: (nvimtree) copy name :wrench:
-* `q`: (nvimtree) close :computer:
-* `g?`: (nvimtree) show help :computer:
+## Shortcuts Search and Replace
+### Common
+* `/`: search forward for a pattern
+* `?`: search backward for a pattern
+* `n`: repeat the last search in the same direction
+* `N`: repeat the last search in the opposite direction
 
-* `:source`: reload neovim config :computer:
-* `:Markdown`: manage markdown Plugin :computer:
-* `Space-th`: nvchad themes :computer:
-* `Space-ch`: show cheatsheet :computer:
-* `:Lsp`: manage rust analyser Plugin :wrench:
+### Uncommon
+* `:%s/pattern/replacement/g`: replace all occurrences of 'pattern' with 'replacement' in the entire file
+
+## Shortcuts Macros and Registers
+`NA`
+
+## Shortcuts Replace Mode
+### Common
+* `R`: switch to **Replace** mode to overwrite text :cyclone:
+
+### Uncommon
+
