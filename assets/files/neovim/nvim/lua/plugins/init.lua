@@ -1,3 +1,41 @@
+-- return {
+--   {
+--     "stevearc/conform.nvim",
+--     -- event = 'BufWritePre', -- uncomment for format on save
+--     config = function()
+--       require "configs.conform"
+--     end,
+--   },
+--
+--   -- These are some examples, uncomment them if you want to see them work!
+--   -- {
+--   --   "neovim/nvim-lspconfig",
+--   --   config = function()
+--   --     require("nvchad.configs.lspconfig").defaults()
+--   --     require "configs.lspconfig"
+--   --   end,
+--   -- },
+--   --
+--   -- {
+--   -- 	"williamboman/mason.nvim",
+--   -- 	opts = {
+--   -- 		ensure_installed = {
+--   -- 			"lua-language-server", "stylua",
+--   -- 			"html-lsp", "css-lsp" , "prettier"
+--   -- 		},
+--   -- 	},
+--   -- },
+--   --
+--   -- {
+--   -- 	"nvim-treesitter/nvim-treesitter",
+--   -- 	opts = {
+--   -- 		ensure_installed = {
+--   -- 			"vim", "lua", "vimdoc",
+--   --      "html", "css"
+--   -- 		},
+--   -- 	},
+--   -- },
+-- }
 return {
   {
     "stevearc/conform.nvim",
@@ -55,7 +93,7 @@ return {
     ft = 'rust',
     dependecies = "neovim/nvim-lspconfig",
     opts = function()
-      require "configs.rust-tools"
+      require "configs.rust_tools"
     end,
     config = function (_, opts)
       require('rust-tools').setup(opts)
@@ -64,32 +102,36 @@ return {
   {
     "mfussenegger/nvim-dap",
   },
+  -- {
+  --   "Saecki/crates.nvim",
+  --   ft = {'rust', 'toml'},
+  --   config = function(_, opts)
+  --     local crates = require('crates')
+  --     crates.setup(opts)
+  --     crates.show()
+  --   end,
+  --   event = { "BufRead Cargo.toml" },
+  --   opts = {
+  --     src = {
+  --       cmp = { enabled = true },
+  --     },
+  --   },
+  -- },
   {
-    "Saecki/crates.nvim",
+    'saecki/crates.nvim',
+    event = { "BufRead Cargo.toml" },
     ft = {'rust', 'toml'},
+    tag = 'stable',
     config = function(_, opts)
       local crates = require('crates')
       crates.setup(opts)
       crates.show()
     end,
-    event = { "BufRead Cargo.toml" },
-    opts = {
-      src = {
-        cmp = { enabled = true },
-      },
-    },
   },
   {
     "hrsh7th/nvim-cmp",
     dependencies = {
       {
-        "Saecki/crates.nvim",
-        event = { "BufRead Cargo.toml" },
-        opts = {
-          src = {
-            cmp = { enabled = true },
-          },
-        },
         'hrsh7th/cmp-nvim-lsp',
         'hrsh7th/cmp-nvim-lua',
         'hrsh7th/cmp-nvim-lsp-signature-help',
@@ -127,4 +169,22 @@ return {
     end,
     ft = { "markdown" },
   },
+  {
+    "j-hui/fidget.nvim",
+    opts = {
+      -- options
+    },
+  },
+  {
+    'nvimdev/lspsaga.nvim',
+    ft = {'c','cpp', 'lua', 'rust', 'go'},
+    config = function()
+        require('lspsaga').setup({})
+    end,
+    dependencies = {
+        'nvim-treesitter/nvim-treesitter', -- optional
+        'nvim-tree/nvim-web-devicons',     -- optional
+    }  
+  }
+
 }
