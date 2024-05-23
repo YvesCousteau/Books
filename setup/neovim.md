@@ -24,6 +24,7 @@ Custom `~/.config/nvim/lua/plugin/init.lua`
 (see `./assets/files/nvim_config.lua`)
 On command mode enter input `:MasonInstall rust-analyzer codelldb`.
 (to manage `Mason` enter in command mode `:Mason`)
+Use Bob (`https://github.com/MordechaiHadad/bob`) as version manager
 
 ## Shortcuts App
 * `:Lazy`: packet manager :wrench:
