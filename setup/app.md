@@ -6,3 +6,4 @@
 + Remmina
 + Dolphin
 + Blueman
++ RPI Imager
