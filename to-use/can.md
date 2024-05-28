@@ -1,6 +1,6 @@
 # Can
 
-## Init PeakCan
+## Init Peak Can
 PEAK CAN USB interface up and running on a Linux system
 ```
 sudo modprobe peak_usb
