@@ -102,11 +102,11 @@ bindsym $mod+q focus parent
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1: Terminal"
 set $ws2 "2: Firefox"
-set $ws3 "3: Postman"
-set $ws4 "4: Discord"
-set $ws5 "5: Mail"
-set $ws6 "6: Slack"
-set $ws7 "7"
+set $ws3 "3: Mail"
+set $ws4 "4: File Explorer"
+set $ws5 "5: Discord"
+set $ws6 "6: Postman"
+set $ws7 "7: Slack"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
@@ -334,15 +334,19 @@ bindsym Print       exec flameshot full
 bindsym Shift+Print exec flameshot gui
 
 exec_always feh --bg-scale ~/Pictures/wp_pixel_art_2.png
-exec_always xrandr --output eDP-1 --mode 1920x1080 --scale 1
-exec_always picom --experimental-backends -fb --backend glx --vsync --config /dev/null --blur-method dual_kawase --blur-strength 5
+exec_always picom --experimental-backends -fb --backend glx --vsync --config /dev/null --blur-method dual_kawase
 
 for_window [class="firefox"] move to workspace $ws2
-for_window [class="Postman"] move to workspace $ws3
-for_window [class="discord"] move to workspace $ws4
-for_window [class="outlook"] move to workspace $ws5
-for_window [class="Slack"] move to workspace $ws6
+for_window [class="outlook"] move to workspace $ws3
+for_window [class="Nautilus"] move to workspace $ws4
+for_window [class="discord"] move to workspace $ws5
+for_window [class="Postman"] move to workspace $ws6
+for_window [class="Slack"] move to workspace $ws7
 
-bindsym $mod+d exec xrandr --output HDMI-1-1 --auto && xrandr --output eDP-1 --off  && xrandr --output eDP-2 --off
-bindsym $mod+Ctrl+d exec xrandr --output DVI-I-1-1 --auto && xrandr --output DVI-I-2-1 --auto && xrandr --output eDP-1 --off  && xrandr --output eDP-2 --off
-bindsym $mod+Shift+d exec xrandr --output eDP-1 --auto && xrandr --output eDP-1 --auto  && xrandr --output HDMI-1-1 --off && xrandr --output DVI-I-2-1 --off && xrandr --output DVI-I-1-1 --off
+bindsym $mod+d exec xrandr --output eDP-1 --mode 2048x1152
+
+# Check Keyboard Layout
+exec_always bash -c 'if lsusb | grep -q "Aluminium Keyboard"; then setxkbmap us; else setxkbmap fr;fi'
+# Check Monitor
+exec_always bash -c 'if [ $(xrandr | grep "connected" | wc -l) -ge 2 ]; then xrandr --output "$(xrandr | awk '\''/ connected/ {if (++count == 2) print $1}'\'')" --auto && xrandr --output "$(xrandr | awk '\''/ connected/ {if (++count == 1) print $1}'\'')" --off ; else xrandr --output eDP-1 --mode 2048x1152;fi'
+

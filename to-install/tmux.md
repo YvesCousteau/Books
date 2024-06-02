@@ -34,9 +34,16 @@ Put this at the bottom of `~/.tmux.conf`:
 # List of plugins
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
+```
 
-# Other examples:
-
-# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+## Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+```
 run '~/.tmux/plugins/tpm/tpm'
 ```
+
+## Enable Auto restore session
+Last saved environment is automatically restored when tmux is started.
+```
+set -g @continuum-restore 'on'
+```
+
