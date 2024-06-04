@@ -4,5 +4,5 @@ Abstract grammar for defining Graphviz nodes, edges, graphs, subgraphs, and clus
 
 To generate outpute from `.dot` file:
 ```
-dot -Tsvg ${FILE}.dot -o output.svg
+dot -T svg ${FILE}.dot -o output.svg
 ```
