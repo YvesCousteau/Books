@@ -1,5 +1,10 @@
 # Neovim
 ## Shortcuts
+### Normal
+### Visual
+### Replace
+### Change
+### Nvimtree
 + `c+i+w`: change inner word
 + `v+i+w`: select inner word
 + `d+i+w`: delete inner word

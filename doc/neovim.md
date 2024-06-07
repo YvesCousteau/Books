@@ -1,4 +1,143 @@
 # Neovim
++ :white_circle: is learned
++ :large_blue_circle: is learning
++ :red_circle: is unlearned
+
+### General
++ `<esc>`: clear highlights :large_blue_circle:
++ `<leader>+n`: toggle line number :red_circle:
++ `<leader>+r+n`: toggle relative line number :red_circle:
++ `<leader>+g+b`: blame Line :red_circle:
+
+### Move
++ `$`: end of line :large_blue_circle:
++ `%`: matching character: `()`, `{}`, `[]` :large_blue_circle:
++ `^`: start of line :large_blue_circle:
++ `{`: previous empty line :red_circle:
++ `}`: next empty line :red_circle:
++ `b`: previous start word :white_circle:
++ `e`: next end word :white_circle:
++ `w`: next start word :white_circle:
++ `h`: left :white_circle:
++ `j`: down :white_circle:
++ `k`: up :white_circle:
++ `l`: right :white_circle:
++ `G`: last line :white_circle:
++ `H`: first window line :red_circle:
++ `M`: last window line :red_circle:
++ `L`: middle window line :red_circle:
++ `[+[`: previous `{` :red_circle:
++ `]+]`: next `{` :red_circle:
++ `g+g`: first line :white_circle:
+
+### Indent
++ `<+<leader>`: indent left line :large_blue_circle:
++ `>+<leader>`: indent right line :large_blue_circle:
+
+### Telescope
++ `<leader>+c+m`: telescope git commits :red_circle:
++ `<leader>+f+a`: telescope find all files :red_circle:
++ `<leader>+f+b`: telescope find buffer :red_circle:
++ `<leader>+f+f`: telescope find files :large_blue_circle:
++ `<leader>+f+w`: telescope live grep :large_blue_circle:
++ `<leader>+f+z`: telescope grep in current buffer :red_circle:
++ `<leader>+g+t`: telescope git status :red_circle:
++ `<leader>+m+a`: telescope find marks :red_circle:
++ `<leader>+p+t`: telescope pick hidden term :red_circle:
+
+### Buffer
++ `<leader>+x`: buffer close :white_circle:
++ `<tab>`: buffer goto next :white_circle:
++ `<shift>+<tab>`: buffer goto previous :white_circle:
+
+### File
++ `<ctrl>+c`: copy whole file :red_circle:
++ `<ctrl>+s`: file save :large_blue_circle:
+
+### Visual
+
+### Replace
++ `d+<leader>`: remove cursor highlight :red_circle: 
++ `d+$`: remove end of line :large_blue_circle: 
++ `d+%`: remove matching character: `()`, `{}`, `[]` :red_circle: 
++ `d+^`: remove start of line :large_blue_circle: 
++ `d+{`: remove previous empty line :red_circle: 
++ `d+}`: remove next empty line :red_circle: 
++ `d+b`: remove previous start word :large_blue_circle: 
++ `d+e`: remove next end word :large_blue_circle: 
++ `d+w`: remove next start word :large_blue_circle: 
+
+### Change
++ `c+<leader>`: remove cursor highlight and enter `insert mode` :red_circle: 
++ `c+$`: remove end of line and enter `insert mode` :large_blue_circle: 
++ `c+%`: remove matching character: `()`, `{}`, `[]` and enter `insert mode` :red_circle: 
++ `c+^`: remove start of line and enter `insert mode` :large_blue_circle: 
++ `c+{`: remove previous empty line and enter `insert mode` :red_circle: 
++ `c+}`: remove next empty line and enter `insert mode` :red_circle: 
++ `c+b`: remove previous start word and enter `insert mode` :large_blue_circle: 
++ `c+e`: remove next end word and enter `insert mode` :large_blue_circle: 
++ `c+w`: remove next start word and enter `insert mode` :large_blue_circle: 
+
+
+### Reset
+
+### Window
++ `<ctrl>+w+s`: split window horizontally :red_circle:
++ `<ctrl>+w+v`: split window vertically :red_circle:
++ `<ctrl>+w+=`: equally window high and wide :red_circle:
++ `<ctrl>+w++`: increase window vertically :red_circle:
++ `<ctrl>+w+-`: decrease window vertically :red_circle:
++ `<ctrl>+w+<`: increase window horizontally :red_circle:
++ `<ctrl>+w+>`: decrease window horizontally :red_circle:
++ `<ctrl>+w+o`: close other windows :red_circle:
++ `<ctrl>+w+q`: close window :red_circle:
++ `<ctrl>+w+x`: swap current window with next :red_circle:
+
+### Mark
++ `` `+' ``|`'+'`: back to line in current buffer where jumped from :red_circle:
++ `` `+[ ``|`'+[`: to beginning of previously changed or yanked text :red_circle:
++ `` `+] ``|`'+]`: to end of previously changed or yanked text :red_circle:
++ `` `+^ ``|`'+^`: last position of cursor in insert mode :red_circle:
++ `` `+. ``|`'+.`: last change in current buffer :red_circle:
++ `` `+< ``|`'+<`: to beginning of last visual selection :red_circle:
++ `` `+> ``|`'+>`: to end of last visual selection :red_circle:
++ `` `+0 ``|`'+0`: in last file edited :red_circle: 
+
+### Command
++ `:`|`;`: `CMD` enter `command mode` :white_circle:
+
+### Nvimtree
++ `<leader>+e`: open and focus `Nvimtree` :white_circle:
++ `<ctrl>+n`: toggle `Nvimtree` :red_circle:
+
+### Comment
++ `<leader>+/`: comment toggle :white_circle:
+
+### LSP
++ `<leader>+c+a`: LSP Code action :red_circle:
++ `<leader>+s+h`|`g+s`: show signature help :red_circle:
++ `g+d`: go to definition :large_blue_circle:
++ `g+D`: go to declaration :large_blue_circle:
++ `g+a`: go to implementation :large_blue_circle:
++ `g+r`: go to references :large_blue_circle:
++ `<leader>+D`: go to type definition :large_blue_circle:
++ `<leader>+w+r`: list workspace folder :red_circle:
++ `<leader>+w+a`: add workspace folder :red_circle:
++ `<leader>+w+r`: remove workspace folder :red_circle:
+
+### Terminal
++ `<alt>+i`: toggle floating terminal :red_circle:
+
+### Switch
++ `<crtl>+h`: switch left window :white_circle:
++ `<crtl>+l`: switch right window :white_circle:
++ `<crtl>+j`: switch bottom window :white_circle:
++ `<crtl>+k`: switch top window :white_circle:
+
+### Help
++ `<leader>+c+h`: toggle nvcheatsheet :large_blue_circle:
+
++ ``:
 ## Shortcuts App
 ### Common
 * `:Lazy`: packet manager :wrench:
