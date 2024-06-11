@@ -1,0 +1,295 @@
+# Neovim
++ :white_circle: is learned
++ :large_blue_circle: is learning
++ :red_circle: is unlearned
+
+### General
++ `<esc>`: clear highlights :large_blue_circle:
++ `<leader>+n`: toggle line number :red_circle:
++ `<leader>+r+n`: toggle relative line number :red_circle:
++ `<leader>+g+b`: blame Line :red_circle:
+
+### Move
++ `$`: end of line :large_blue_circle:
++ `%`: matching character: `()`, `{}`, `[]` :large_blue_circle:
++ `^`: start of line :large_blue_circle:
++ `{`: previous empty line :red_circle:
++ `}`: next empty line :red_circle:
++ `b`: previous start word :white_circle:
++ `e`: next end word :white_circle:
++ `w`: next start word :white_circle:
++ `h`: left :white_circle:
++ `j`: down :white_circle:
++ `k`: up :white_circle:
++ `l`: right :white_circle:
++ `G`: last line :white_circle:
++ `H`: first window line :red_circle:
++ `M`: last window line :red_circle:
++ `L`: middle window line :red_circle:
++ `[+[`: previous `{` :red_circle:
++ `]+]`: next `{` :red_circle:
++ `g+g`: first line :white_circle:
+
+### Indent
++ `<+<leader>`: indent left line :large_blue_circle:
++ `>+<leader>`: indent right line :large_blue_circle:
+
+### Telescope
++ `<leader>+c+m`: telescope git commits :red_circle:
++ `<leader>+f+a`: telescope find all files :red_circle:
++ `<leader>+f+b`: telescope find buffer :red_circle:
++ `<leader>+f+f`: telescope find files :large_blue_circle:
++ `<leader>+f+w`: telescope live grep :large_blue_circle:
++ `<leader>+f+z`: telescope grep in current buffer :red_circle:
++ `<leader>+g+t`: telescope git status :red_circle:
++ `<leader>+m+a`: telescope find marks :red_circle:
++ `<leader>+p+t`: telescope pick hidden term :red_circle:
+
+### Buffer
++ `<leader>+x`: buffer close :white_circle:
++ `<tab>`: buffer goto next :white_circle:
++ `<shift>+<tab>`: buffer goto previous :white_circle:
+
+### File
++ `<ctrl>+c`: copy whole file :red_circle:
++ `<ctrl>+s`: file save :large_blue_circle:
+
+### Visual
+
+### Replace
++ `d+<leader>`: remove cursor highlight :red_circle: 
++ `d+$`: remove end of line :large_blue_circle: 
++ `d+%`: remove matching character: `()`, `{}`, `[]` :red_circle: 
++ `d+^`: remove start of line :large_blue_circle: 
++ `d+{`: remove previous empty line :red_circle: 
++ `d+}`: remove next empty line :red_circle: 
++ `d+b`: remove previous start word :large_blue_circle: 
++ `d+e`: remove next end word :large_blue_circle: 
++ `d+G`: remove to last line :red_circle: 
++ `d+w`: remove next start word :large_blue_circle: 
++ `d+a+w`: remove next word with space :red_circle: 
++ `d+g+g`: remove to first line :red_circle: 
++ `d+i+w`: remove next word :large_blue_circle: 
+
+### Change
++ `c+<leader>`: remove cursor highlight and enter `insert mode` :red_circle: 
++ `c+$`: remove end of line and enter `insert mode` :large_blue_circle: 
++ `c+%`: remove matching character: `()`, `{}`, `[]` and enter `insert mode` :red_circle: 
++ `c+^`: remove start of line and enter `insert mode` :large_blue_circle: 
++ `c+{`: remove previous empty line and enter `insert mode` :red_circle: 
++ `c+}`: remove next empty line and enter `insert mode` :red_circle: 
++ `c+b`: remove previous start word and enter `insert mode` :large_blue_circle: 
++ `c+e`: remove next end word and enter `insert mode` :large_blue_circle: 
++ `c+G`: remove to last line and enter `insert mode` :red_circle: 
++ `c+w`: remove next start word and enter `insert mode` :large_blue_circle: 
++ `c+a+w`: remove next word with space and enter `insert mode` :red_circle: 
++ `c+g+g`: remove to first line and enter `insert mode` :red_circle: 
++ `c+i+w`: remove next word and enter `insert mode` :large_blue_circle: 
+
+### Reset
+
+### Window
++ `<ctrl>+w+s`: split window horizontally :red_circle:
++ `<ctrl>+w+v`: split window vertically :red_circle:
++ `<ctrl>+w+=`: equally window high and wide :red_circle:
++ `<ctrl>+w++`: increase window vertically :red_circle:
++ `<ctrl>+w+-`: decrease window vertically :red_circle:
++ `<ctrl>+w+<`: increase window horizontally :red_circle:
++ `<ctrl>+w+>`: decrease window horizontally :red_circle:
++ `<ctrl>+w+o`: close other windows :red_circle:
++ `<ctrl>+w+q`: close window :red_circle:
++ `<ctrl>+w+x`: swap current window with next :red_circle:
+
+### Mark
++ `` `+' ``|`'+'`: back to line in current buffer where jumped from :red_circle:
++ `` `+[ ``|`'+[`: to beginning of previously changed or yanked text :red_circle:
++ `` `+] ``|`'+]`: to end of previously changed or yanked text :red_circle:
++ `` `+^ ``|`'+^`: last position of cursor in insert mode :red_circle:
++ `` `+. ``|`'+.`: last change in current buffer :red_circle:
++ `` `+< ``|`'+<`: to beginning of last visual selection :red_circle:
++ `` `+> ``|`'+>`: to end of last visual selection :red_circle:
++ `` `+0 ``|`'+0`: in last file edited :red_circle: 
+
+### Command
++ `:`|`;`: `CMD` enter `command mode` :white_circle:
+
+### Nvimtree
++ `<leader>+e`: open and focus `Nvimtree` :white_circle:
++ `<ctrl>+n`: toggle `Nvimtree` :red_circle:
+
+### Comment
++ `<leader>+/`: comment toggle :white_circle:
++ `g+c+$`: comment toggle end of line :red_circle:
++ `g+c+%`: comment toggle matching character: `()`, `{}`, `[]` :red_circle: 
++ `g+c+^`: comment toggle start of line :red_circle: 
++ `g+c+{`: comment toggle previous empty line :red_circle: 
++ `g+c+}`: comment toggle next empty line :red_circle: 
++ `g+c+A`: cooment toggle comment insert end of line :red_circle:
++ `g+c+b`: comment toggle previous start word :red_circle: 
++ `g+c+e`: comment toggle next end word :red_circle: 
++ `g+c+w`: comment toggle next start word :red_circle: 
++ `g+c+a+w`: comment toggle next word with space :red_circle: 
++ `g+c+g+g`: comment toggle to first line :red_circle: 
++ `g+c+i+w`: comment toggle next word :red_circle: 
+
+### LSP
++ `<leader>+c+a`: LSP Code action :red_circle:
++ `<leader>+s+h`|`g+s`: show signature help :red_circle:
++ `g+d`: go to definition :large_blue_circle:
++ `g+D`: go to declaration :large_blue_circle:
++ `g+a`: go to implementation :large_blue_circle:
++ `g+r`: go to references :large_blue_circle:
++ `<leader>+D`: go to type definition :large_blue_circle:
++ `<leader>+w+r`: list workspace folder :red_circle:
++ `<leader>+w+a`: add workspace folder :red_circle:
++ `<leader>+w+r`: remove workspace folder :red_circle:
+
+### Terminal
++ `<alt>+i`: toggle floating terminal :red_circle:
+
+### Switch
++ `<crtl>+h`: switch left window :white_circle:
++ `<crtl>+l`: switch right window :white_circle:
++ `<crtl>+j`: switch bottom window :white_circle:
++ `<crtl>+k`: switch top window :white_circle:
+
+### Help
++ `<leader>+c+h`: toggle nvcheatsheet :large_blue_circle:
+
++ ``:
+## Shortcuts App
+### Common
+* `:Lazy`: packet manager :wrench:
+* `:Mason`: packet manager :wrench:
+* `:Lsp`: manage rust analyser Plugin :wrench:
+* `:Markdown`: manage markdown Plugin
+* `<leader>+ff`: find file
+* `<leader>+fw`: live grep
+### Uncommon
+* `:source`: reload neovim config
+* `<leader>+th`: nvchad themes
+* `<leader>+ch`: show cheatsheet
+
+## Shortcuts Panel
+### Common
+* `<ctrl>+[hjkl]`: move through panels
+* `tab`: jump into the next open file
+* `<shift>+tab`: jump into the previous open file 
+* `<leader>+e`: open file explorer
+* `<leader>+q`: open and close log terminal :wrench:
+* `:x`: exit file with saving
+* `:w`: save without exit
+* `<leader>+h`: open horizontal term
+* `<leader>+x`: close file 
+* `:sp`: split the window horizontally :pushpin:
+* `:vsp`: split the window vertically :pushpin:
+### Uncommon
+* `:q!`: exit file without saving (force) :wrench:
+* `<leader>+v`: open vertical term :computer:
+* `<leader>+b`: create new file :wrench:
+* `<alt>+i`: open floating terminal :computer:
+* `<ctrl>+c`: copy all file :wrench:
+* `:wa`: save all open buffers to disk :wrench:
+
+## Shortcuts Motion 
+### Common
+* `[hjkl]`: move in panel
+* `$`: move cursor to end of line
+* `^`: move cursor to first non-whitespace character of line
+* `0`: move cursor to beginning of line
+* `G`: go to the last non blank line
+* `gg`: go to the first non blank line
+* `w`: jump to the begin of the next word
+* `e`: jump to the end of the next word
+* `b`: jump to the begin of the previouscword
+* `<ctrl>+b`: (insert) move at the begining of the line panel
+* `<ctrl>+e`: (insert) move at the ending of the line panel
+* `%`: match the next enlosure
+### Uncommon
+* `<ctrl>+[hjkl]`: (insert) move in panel
+* `)`: sentence forward
+* `(`: sentence backwards
+* `}`: paragraph forward
+* `{`: paragraph backwards
+
+## Shortcuts Rust 
+### Common
+* `gk`: show type :wrench:
+* `gK`: go to type
+* `gr`: go to reference
+* `gd`: go to definition
+* `gD`: go to implementations
+* `<leader>+ds`: open lsp diagnostic :wrench:
+
+## Shortcuts Nvimtree 
+### Common
+* `a`: create file/dir :wrench:
+* `u`: rename or move file/dir :wrench:
+* `d`: delete file/dir :wrench:
+* `c`: copy file/dir :wrench:
+* `p`: past file/dir :wrench:
+### Uncommon
+* `gy`: copy absolute path file/dir :wrench:
+* `y`: copy name file/dir :wrench:
+* `q`: close tree 
+* `g?`: show help
+
+## Shortcuts Editing
+### Common
+* `i`: enter **Insert** mode before the cursor
+* `a`: enter **Insert** mode after the cursor
+* `I`: enter **Insert** mode at beginning of the line
+* `A`: enter **Insert** mode at the end of the line
+* `o`: insert a new line below the current line and enter **Insert** mode
+* `O`: insert a new line above the current line and enter **Insert** mode
+* `yy`: copy current line
+* `dd`: delete current line
+* `<leader>+/`: (visual mode) comments multi lines
+* `u`: undo the last change
+* `<ctrl>+r`: redo the last change
+* `cw`: change from cursor to end of word and enter **Insert** mode
+* `ciw`: change the word where the cursor is and enter **Insert** mode
+* `cb`: change from cursor to beginning of word and enter **Insert** mode
+* `x`: :delete cusor highlight
+* `<esc>`: leave **INSERT** mode 
+* `<del>`: delete left
+* `<fn>+<del>`: delete right
+* `dw`: delete current word
+### Uncommon
+* `D`: delete from the cursor to the end of the line
+* `<ctrl>+u`: delete word after cursor
+* `<ctrl>+w`: delete word before cursor
+
+## Shortcuts Visual Mode
+### Common
+* `v`: enter **Visual** mode and select text character by character
+* `V`: enter **Visual** mode and select text line by line
+* `y`: copy selection
+* `v$`: select from the cursor to the end of the line
+### Uncommon
+* `d`: delete selection
+* `c`: change the selected text and enter **Insert** mode
+
+## Shortcuts Search and Replace
+### Common
+* `/`: search forward for a pattern
+* `?`: search backward for a pattern
+* `n`: repeat the last search in the same direction
+* `N`: repeat the last search in the opposite direction
+### Uncommon
+* `:%s/pattern/replacement/g`: replace all occurrences of 'pattern' with 'replacement' in the entire file
+
+## Shortcuts Replace Mode
+### Common
+* `R`: switch to **Replace** mode to overwrite text :cyclone:
+wqdjiqwdj " qwdqwdqwd qwd" qwdqwd
+wqdjiqwdj ( qwdqwdqwd qwd) qwdqwd
+wqdjiqwdj [ qwdqwdqwd qwd] qwdqwd
+wqdjiqwdj { qwdqwdqwd qwd} qwdqwd
+wqdjiqwdj " qwdqwdqwd qwd" qwdqwd
+* `R`: switch to **Replace** mode to overwrite text :cyclone:
+* `R`: switch to **Replace** mode to overwrite text :cyclone:
+* `R`: switch to **Replace** mode to overwrite text :cyclone:
+* `R`: switch to **Replace** mode to overwrite text :cyclone:
+* `R`: switch to **Replace** mode to overwrite text :cyclone:
+* `R`: switch to **Replace** mode to overwrite text :cyclone:
