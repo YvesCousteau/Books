@@ -1,5 +1,4 @@
 # Can
-
 ## Init Peak Can
 PEAK CAN USB interface up and running on a Linux system
 ```

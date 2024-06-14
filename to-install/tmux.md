@@ -1,4 +1,4 @@
-# tmux
+# Tmux
 * tmux is a program which runs in a terminal and allows multiple other terminal programs to be run inside it.
 * Once a tmux client is attached, any keys entered are forwarded to the program running in the active pane of the current window. 
 * For keys that control tmux itself, a special key must be pressed first - this is called the prefix key.

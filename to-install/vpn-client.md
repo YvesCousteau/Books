@@ -1,4 +1,4 @@
-# VPS
+# VPN Client
 ## Set VPN Client Side
 Install open vpn:
 ```

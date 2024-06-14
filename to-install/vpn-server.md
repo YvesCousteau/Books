@@ -1,4 +1,4 @@
-# VPS
+# VPN Server
 ## Set VPN Server Side
 ```
 sudo apt update
